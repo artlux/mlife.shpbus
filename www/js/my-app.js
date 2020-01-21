@@ -4,7 +4,7 @@ window.reloadPageInJs = false;
 window.ftracer = false;
 
 window.debug = false;
-window.startUrl = 'https://24bus.by/ajax/mobil_app/';
+window.startUrl = 'https://bus.mlife-media.by/ajax/mobil_app/';
 
 window.deviceId = '';
 
