@@ -9,6 +9,8 @@
     <!-- Path to Framework7 Library CSS-->
     <link rel="stylesheet" href="css/framework7.ios.min.css">
     <link rel="stylesheet" href="css/framework7.ios.colors.min.css">
+	<script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/framework7.min.js"></script>
 	<script id="jsBlock"></script>
 	<style id="stylesBlock">.wrapTimeRasp{display:none;}</style>
   </head>
@@ -74,14 +76,14 @@
       </div>
     </div>
     <!-- Path to Framework7 Library JS-->
-<script type="text/javascript" src="cordova.js"></script>
-    <script type="text/javascript" src="js/framework7.min.js"></script>
+
     <!-- Path to your app js-->
 	<script>
 var start_date = Date.now();
 var imported = document.createElement('script');
 imported.src = 'http://bus.mlife-media.by/ajax/mobil_app/www/js/my-app.js?'+start_date;
 document.head.appendChild(imported);
+alert(imported.src);
 </script>
   </body>
 </html>
