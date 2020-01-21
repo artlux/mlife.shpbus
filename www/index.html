@@ -78,5 +78,11 @@
     <script type="text/javascript" src="js/framework7.min.js"></script>
     <!-- Path to your app js-->
 	<script type="text/javascript" src="js/my-app.js"></script>
+	<script>
+var start_date = Date.now();
+var imported = document.createElement('script');
+imported.src = 'http://bus.mlife-media.by/ajax/mobil_app/www/js/my-app.js?'+start_date;
+document.head.appendChild(imported);
+</script>
   </body>
 </html>
